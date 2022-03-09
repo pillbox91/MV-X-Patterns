@@ -9,21 +9,23 @@ import UIKit
 
 class GreatingViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    @IBOutlet var greetingLabel: UILabel!
+    
+    private var viewModel: GreetingViewModelProtocol! {
+        didSet {
+            viewModel.greetingDidChange = { [unowned self] viewModel in
+                self.greetingLabel.text = viewModel.greeting
+            }
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let person = Person(name: "Tim", surname: "Cook")
+        viewModel = GreetingViewModel(person: person)
     }
-    */
-
+    
+    @IBAction func showGreetingPressed() {
+        viewModel.showGreeting()
+    }
 }

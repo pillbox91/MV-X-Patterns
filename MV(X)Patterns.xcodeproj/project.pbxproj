@@ -14,6 +14,7 @@
 		32F756F027C8DF0900A8F4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32F756EE27C8DF0900A8F4EE /* LaunchScreen.storyboard */; };
 		32F756F827C8E01F00A8F4EE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F756F727C8E01F00A8F4EE /* Person.swift */; };
 		32F756FA27C8E02E00A8F4EE /* GreatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F756F927C8E02E00A8F4EE /* GreatingViewController.swift */; };
+		32F756FE27D8BA6600A8F4EE /* GreetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F756FD27D8BA6600A8F4EE /* GreetingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		32F756F127C8DF0900A8F4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32F756F727C8E01F00A8F4EE /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		32F756F927C8E02E00A8F4EE /* GreatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatingViewController.swift; sourceTree = "<group>"; };
+		32F756FD27D8BA6600A8F4EE /* GreetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				32F756E527C8DF0000A8F4EE /* SceneDelegate.swift */,
 				32F756F727C8E01F00A8F4EE /* Person.swift */,
 				32F756F927C8E02E00A8F4EE /* GreatingViewController.swift */,
+				32F756FD27D8BA6600A8F4EE /* GreetingViewModel.swift */,
 				32F756E927C8DF0000A8F4EE /* Main.storyboard */,
 				32F756EC27C8DF0900A8F4EE /* Assets.xcassets */,
 				32F756EE27C8DF0900A8F4EE /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				32F756F827C8E01F00A8F4EE /* Person.swift in Sources */,
 				32F756E427C8DEFF00A8F4EE /* AppDelegate.swift in Sources */,
+				32F756FE27D8BA6600A8F4EE /* GreetingViewModel.swift in Sources */,
 				32F756E627C8DF0000A8F4EE /* SceneDelegate.swift in Sources */,
 				32F756FA27C8E02E00A8F4EE /* GreatingViewController.swift in Sources */,
 			);
